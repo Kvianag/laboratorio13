@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('operation').addEventListener('change', function() {
+        document.getElementById('resultado').textContent = '';
+    });
+});
 // Funciones matemáticas básicas
 function suma(a, b) {
     return a + b;
